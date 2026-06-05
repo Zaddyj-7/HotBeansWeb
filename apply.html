@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | Hot Beans Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trainees.html">Trainee Profiles</a>
+        <a href="careers.html">Careers</a>
+        <a href="courses.html">Courses</a>
+        <a href="apply.html">Apply</a>
+    </nav>
+</header>
+
+<section class="content">
+
+    <h1>Online Application Form</h1>
+
+    <p>
+        Complete the form below to apply for a role at Hot Beans Web.
+    </p>
+
+    <form>
+
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="role">Position Applying For</label>
+        <select id="role" name="role" required>
+            <option value="">Select a role</option>
+            <option value="junior-web-developer">Junior Web Developer</option>
+            <option value="web-designer">Web Designer</option>
+        </select>
+
+        <label for="qualification">Highest Qualification</label>
+        <select id="qualification" name="qualification" required>
+            <option value="">Select qualification</option>
+            <option value="level-2">Level 2 IT / Computing</option>
+            <option value="level-3">Level 3 IT / Computing</option>
+            <option value="degree">Degree</option>
+            <option value="self-taught">Self-taught</option>
+            <option value="bootcamp">Coding Bootcamp</option>
+        </select>
+
+        <label for="cv">Upload CV</label>
+        <input type="file" id="cv" name="cv">
+
+        <label for="message">Why do you want to work at Hot Beans Web?</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Hot Beans Web | <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
